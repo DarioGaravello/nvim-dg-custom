@@ -1,0 +1,20 @@
+call plug#begin("~/.config/nvim/plugged")
+" Snippets/Emmets
+Plug 'jiangmiao/auto-pairs'
+Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-repeat'
+Plug 'anyakichi/vim-surround'
+Plug 'mattn/emmet-vim'
+Plug 'turbio/bracey.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Lightline
+Plug 'itchyny/lightline.vim'
+" Themes
+Plug 'dracula/vim'
+" Tree
+Plug 'scrooloose/nerdtree'
+" Tmux
+Plug 'benmills/vimux'
+Plug 'christoomey/vim-tmux-navigator'
+call plug#end()
